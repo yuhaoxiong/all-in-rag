@@ -25,6 +25,7 @@ llama-index-embeddings-openai==0.3.1
 llama-index-llms-openai==0.4.7
 chromadb>=0.4.0
 faiss-cpu>=1.7.0
+faiss-gpu
 pypdf>=4.0.0
 python-dotenv>=1.0.0
 openai>=1.86.0,<2.0.0
