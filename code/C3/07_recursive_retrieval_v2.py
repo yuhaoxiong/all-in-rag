@@ -92,7 +92,7 @@ def query_safe_recursive(query_str):
     return response
 
 # 4. 执行查询
-query = "1994年评分人数最少的电影是哪一部？"
+query = input()
 response = query_safe_recursive(query)
 
 print(f"最终回答: {response}")
